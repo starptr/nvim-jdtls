@@ -1,3 +1,6 @@
+- The `locked` branch should nearly mirror `master`, but should not be fast-forwarded frequently
+  - The main neovim configuration pins every remote plugin, but since this is a local plugin, the `locked` branch serves to keep the version as expected
+
 # nvim-jdtls
 
 Extensions for the built-in [Language Server Protocol][1] support in [Neovim][2] (>= 0.6.0) for [eclipse.jdt.ls][3].
